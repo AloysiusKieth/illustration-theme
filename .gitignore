@@ -33,3 +33,4 @@ $RECYCLE.BIN/
 *.orig
 
 # End of https://www.gitignore.io/api/jekyll,windows,git
+*.config
