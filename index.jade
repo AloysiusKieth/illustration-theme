@@ -7,4 +7,11 @@ html(lang="en")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
     link(rel="stylesheet",  href="assets/css/main.css")
   body
-    
+    .site-wrap
+      include includes/header.jade
+      .test
+  
+  script( src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js")
+  script(src="assets/js/functions.js")
+  script.
+    window.jQuery || document.write('<script src="assets/js/libs/jquery-3.1.1.min.js"></script>')

@@ -1,6 +1,7 @@
 //  INCLUDE ALL SASS FILES HERE !!!
 
 //  mixin libs, fonts, vars, normalize
+@import "tools/normalize";
 @import "tools/bourbon/bourbon";
 @import "tools/fonts";
 @import "tools/vars";
@@ -10,4 +11,5 @@
 
 
 
-// layouts styling
+//  modules
+@import "modules/header";
