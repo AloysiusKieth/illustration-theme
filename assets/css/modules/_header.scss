@@ -17,7 +17,7 @@
   .logo{
     @include hide-text() ;
     background:
-      url(/assets/img/logo.svg)
+      url(assets/img/logo.svg)
       no-repeat;
     margin: 10px 0;
     padding: 0;
@@ -87,7 +87,7 @@
     &::before{
     content: ' ';
     background:
-    url(/assets/img/arrow-down.svg)
+    url(assets/img/arrow-down.svg)
     no-repeat;
     display: block;
     width: 0.7em;
